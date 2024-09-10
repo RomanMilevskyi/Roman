@@ -1,0 +1,67 @@
+/* Встановлюємо загальні стилі для тіла */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Вирівнюємо елементи по вертикалі */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Оформлення контейнера форми */
+.registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center; /* Центруємо текст у контейнері */
+}
+
+/* Стилі заголовка форми */
+.registration-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стилі для всіх елементів форми */
+.registration-form label {
+    display: block;
+    text-align: left; /* Вирівнюємо текст зліва для підписів полів */
+    margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%; /* Поля займають всю ширину контейнера */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Стилі для кнопки */
+.registration-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Центрування та зменшення розміру тексту повідомлення */
+#greeting {
+    margin-top: 20px;
+    font-size: 12px; /* Робимо текст маленьким */
+    color: #333;
+    text-align: center; /* Вирівнюємо текст по центру */
+}
